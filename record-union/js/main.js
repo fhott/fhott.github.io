@@ -169,6 +169,7 @@ function drawBigCircle() {
 }
 
 function resetCanvas() {
+    textAbout = '';
     circles = [];
     lines = [];
     bigCircle = new Circle(0, 0, 0, 'red');
