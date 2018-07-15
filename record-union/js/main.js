@@ -38,7 +38,7 @@ class Circle {
         textSize(12);
         noStroke();
         fill(0)
-        text(`x: ${this._x}, y: ${this._y}`, this._x, (this._y - 12));
+        text(`x: ${this._x}, y: ${this._y}`, this._x, (this._y - 20));
     }
 }
 
@@ -179,8 +179,8 @@ function showAbout() {
     resetCanvas();
 
     textAbout = 'This is a front-end challenge from Record Union :D\n\n';
-    textAbout += 'When you click on the canvas area, it will draw a red circle, on the third circle, the program will draw another circle which is the fouth point of a parallelogram, complete the parallelogram with blue lines and draw a yellow circle at the center of the parallelogram with the same area of it.\n\n';
-    textAbout += 'I did this and my name is Fillipe Hott, you can know more about me clicking on the "Fillipe Hott" button on the left of your screen ;)\n\n';
+    textAbout += 'When you click on the canvas area, it will draw a red circle, on the third circle, the program will draw another circle which is the fourth point of a parallelogram, complete the parallelogram with blue lines and draw a yellow circle at the center of the parallelogram with the same area of it.\n\n';
+    textAbout += 'My name is Fillipe Hott and I made this solution, you can know more about me clicking on the "Fillipe Hott" button on the left of your screen ;)\n\n';
     textAbout += 'Just click anywhere in the canvas\nto close this message.';
 }
 
